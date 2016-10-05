@@ -20,7 +20,7 @@ public class LogarithmicAxisExample implements GlimpseLayoutProvider {
 
 			@Override
 			protected Axis1D createAxisX() {
-				return new LogarithmicAxis1D(7);
+				return new LogarithmicAxis1D(7, 0, 282_475_249);
 			}
 
 			@Override
@@ -29,14 +29,10 @@ public class LogarithmicAxisExample implements GlimpseLayoutProvider {
 			}
 		};
 
-		plot.getAxis().getAxisX().setMin(0);
-		plot.getAxis().getAxisX().setMax(100);
-
 		return plot;
 	}
 
-	public static void main( String[] args ) throws Exception
-	{
-		Example.showWithSwing( new LogarithmicAxisExample( ) );
+	public static void main(String[] args) throws Exception {
+		Example.showWithSwing(new LogarithmicAxisExample());
 	}
 }
