@@ -26,7 +26,7 @@
  */
 package com.metsci.glimpse.gl.attribute;
 
-import com.jogamp.opengl.GL2;
+import javax.media.opengl.GL2;
 
 import com.jogamp.common.nio.Buffers;
 

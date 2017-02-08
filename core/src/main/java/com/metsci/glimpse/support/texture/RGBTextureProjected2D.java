@@ -26,14 +26,15 @@
  */
 package com.metsci.glimpse.support.texture;
 
-import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.Buffer;
 
-import com.jogamp.opengl.GL;
-import com.jogamp.opengl.GL2;
+import javax.imageio.ImageIO;
+import javax.media.opengl.GL;
+import javax.media.opengl.GL2;
+
 import com.metsci.glimpse.support.texture.ByteTextureProjected2D.MutatorByte2D;
 
 /**

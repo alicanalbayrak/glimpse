@@ -26,8 +26,8 @@
  */
 package com.metsci.glimpse.gl.texture;
 
-import com.jogamp.opengl.GL2;
-import com.jogamp.opengl.GLContext;
+import javax.media.opengl.GL2;
+import javax.media.opengl.GLContext;
 
 /**
  * Wrapper interface for an OpenGL texture. Provides methods

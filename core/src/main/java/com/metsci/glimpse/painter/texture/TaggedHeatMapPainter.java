@@ -32,7 +32,7 @@ import java.io.IOException;
 import java.nio.FloatBuffer;
 import java.util.List;
 
-import com.jogamp.opengl.GLContext;
+import javax.media.opengl.GLContext;
 
 import com.metsci.glimpse.axis.Axis1D;
 import com.metsci.glimpse.axis.listener.AxisListener1D;

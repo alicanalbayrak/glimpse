@@ -26,7 +26,7 @@
  */
 package com.metsci.glimpse.gl.shader;
 
-import com.jogamp.opengl.GL3;
+import javax.media.opengl.GL3;
 
 public enum ShaderType
 {

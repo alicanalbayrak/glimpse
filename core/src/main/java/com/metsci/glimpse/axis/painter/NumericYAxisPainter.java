@@ -30,7 +30,7 @@ import static java.lang.Math.round;
 
 import java.awt.geom.Rectangle2D;
 
-import com.jogamp.opengl.GL2;
+import javax.media.opengl.GL2;
 
 import com.metsci.glimpse.axis.Axis1D;
 import com.metsci.glimpse.axis.painter.label.AxisLabelHandler;

@@ -26,7 +26,6 @@
  */
 package com.metsci.glimpse.support.texture;
 
-import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.awt.image.WritableRaster;
 import java.io.IOException;
@@ -35,8 +34,9 @@ import java.nio.Buffer;
 import java.nio.FloatBuffer;
 import java.util.logging.Logger;
 
-import com.jogamp.opengl.GL;
-import com.jogamp.opengl.GL2;
+import javax.imageio.ImageIO;
+import javax.media.opengl.GL;
+import javax.media.opengl.GL2;
 
 /**
  * A texture class which stores 4 channel RGBA colors. Each color channel

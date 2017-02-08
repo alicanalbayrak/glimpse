@@ -26,11 +26,13 @@
  */
 package com.metsci.glimpse.support.shader;
 
+import static com.metsci.glimpse.gl.shader.ShaderType.fragment;
+
 import java.io.IOException;
 
-import static com.metsci.glimpse.gl.shader.ShaderType.fragment;
-import com.jogamp.opengl.GL;
-import com.jogamp.opengl.GLContext;
+import javax.media.opengl.GL;
+import javax.media.opengl.GLContext;
+
 import com.metsci.glimpse.axis.Axis1D;
 import com.metsci.glimpse.axis.listener.AxisListener1D;
 import com.metsci.glimpse.gl.shader.Shader;
